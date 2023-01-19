@@ -132,7 +132,7 @@ textarea {
 
   p {
     font-size: .875em;
-    line-height: 18px;
+    line-height: 1.285;
   }
 
   img {
@@ -157,6 +157,16 @@ textarea {
     font-weight: 500;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
   }
+
+  .contact-content,
+  .reviews {
+    background-color: #2a423a;
+  }
+
+  .social-icons, .aside,
+  .mission, .faq {
+    background-color: #527158;
+  }
   
   /* ---------------------------- Base Header - Footer Styles ------------------ */
 
@@ -166,6 +176,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #202322;
    }
 
    header {
@@ -184,6 +195,7 @@ textarea {
     width: 90%;
     height: 1px;
     margin: 10px 0 20px 0;
+    background: #3a3a3a;
   }
 
    header nav {
@@ -193,7 +205,8 @@ textarea {
     flex-flow: row wrap;
     width: 60%;
     font size: 1.125em;
-    font-weight: bold;
+    font-weight: 700;
+    text-transform: uppercase;
    }
 
    header nav ul {
@@ -202,7 +215,12 @@ textarea {
     width: 100%;
    }
 
+   header nav ul li {
+    font-size: 1.125em;
+   }
+
    footer {
+    text-align: center;
     flex-direction: column;
    }
 
@@ -248,11 +266,37 @@ textarea {
    /* Aside */
 
    aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items:center;
     flex-flow: row wrap;
    }
+
+   aside .form {
+    margin-top: 30px;
+   }
+
+   input [type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+
+  input [type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
    /* Features */
 
@@ -274,6 +318,7 @@ textarea {
    }
 
    .features p {
+    text-align: center;
     margin: 0;
    }
 
@@ -285,6 +330,7 @@ textarea {
    /* Reviews */
 
    .reviews {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -292,6 +338,7 @@ textarea {
 
    .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1;
    }
 
    .reviews h3 {
@@ -305,6 +352,7 @@ textarea {
   =========================================================================== */
 
   .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -312,6 +360,7 @@ textarea {
   }
 
   .contact-section {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -327,6 +376,7 @@ textarea {
     ========================================================================= */
 
     .faq {
+      background-color: #527158;
       display: flex;
       justify-content: center;
       align-items:center;
@@ -343,11 +393,18 @@ textarea {
 
     .faq h2 {
       margin-bottom: 40px;
+      line-height: 1;
     }
 
     .faq-content {
       margin-bottom: 50px;
     }
+
+    .faq-content h4 {
+      line-height: 1.333;
+    }
+
+
 
 /* ==========================================================================
    Helper classes
@@ -444,6 +501,23 @@ textarea {
     margin: 100px 0;
   }
 
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25em;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+
+  .footer h4, .contact h4 {
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+  }
+
   /* Header */
 
   header {
@@ -469,6 +543,11 @@ textarea {
   }
 
   /* Hero Area */
+
+  h1 {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 3em
+  }
 
   /* Aside */
 
@@ -573,6 +652,33 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 1200px) {
+
+  h1 {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 3.75em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  .faq h2, .mission h2 {
+    font-size: 3em;
+  }
+
+  h3, h4 {
+    font-size: 1.875em;
+  }
+
+  .faq h4, p {
+    font-size: 1.125em;
+    line-height: 18px;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 24px;
+  }
   
 .content-wrapper {
   max-width: 960px;
