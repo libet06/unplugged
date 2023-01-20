@@ -90,333 +90,339 @@ textarea {
 
 /* ------------- General Styles --------------- */
 
-  html {
-    font-size: 16px;
-  }
+html {
+  font-size: 16px;
+}
 
-  body {
-    font-family: 'Open Sans', sans-serif;
-    color: #e2e3ed;
-    font-size: 1em;
-    text-align: left;
-  }
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #e2e3ed;
+  font-size: 1em;
+  text-align: left;
+}
 
-  ul,
-  ol {
-    list-style-type: none;
-  }
+ul,
+ol {
+  list-style-type: none;
+}
 
-  a {
-    color: #e2e3ed;
-    text-decoration: none;
-  }
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
 
-  h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.875em;
-    font-weight: 500;
-  }
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
 
-  h3, h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.125em;
-    font-weight: 500;
-    margin: 20px 0;
-  }
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+  margin: 20px 0;
+}
 
-  p {
-    font-size: .875em;
-    line-height: 1.285;
-  }
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
 
-  img {
-    width: 100%;
-  }
+img {
+  width: 100%;
+}
 
-  figure {
-    margin: 0;
-  }
+figure {
+  margin: 0;
+}
 
-  address {
-    font-style: normal;
-  }
+address {
+  font-style: normal;
+}
 
-  .content-wrapper {
-    width: 90%;
-    margin: 50px 0;
-  } 
-  
-  /* ---------------------------- Base Header - Footer Styles ------------------ */
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 
-  header,
-   footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: #202322;
-   }
+/* ---------------------------- Base Header - Footer Styles ------------------ */
 
-   header {
-    padding: 15px 0;
-   }
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #202322;
+}
 
-   header .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 0;
-   }
+header {
+  padding: 15px 0;
+}
 
-   header figure {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-   }
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
 
-   .header-divider {
-    width: 90%;
-    height: 1px;
-    margin: 10px 0 20px 0;
-    background: #3a3a3a;
-  }
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-   header nav {
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    flex-flow: row wrap;
-    width: 60%;
-    font-size: 1.125em;
-    font-weight: 700;
-    text-transform: uppercase;
-   }
+.header-divider {
+  width: 90%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+  background: #3a3a3a;
+}
 
-   header nav ul {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-   }
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
-   header nav ul li {
-    font-size: 1.125em;
-   }
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 
-   footer {
-    text-align: center;
-    flex-direction: column;
-   }
+header nav ul li {
+  font-size: 1.125em;
+}
 
-   footer p {
-    margin: 0;
-   }
+footer {
+  text-align: center;
+  flex-direction: column;
+}
 
-   footer .content-wrapper {
-    width: 55%;
-    margin: 50px 0;
-   }
+footer p {
+  margin: 0;
+}
 
-   footer .contact {
-    margin-bottom: 50px;
-   }
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
 
-   footer .social-icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   }
+footer .contact {
+  margin-bottom: 50px;
+}
 
-   footer .social-icons p {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-   }
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-   footer .copyright {
-    margin: 20px 0;
-   }
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-   /* ---------------------Mobile Styles - Homepage----------------- */
+footer .copyright {
+  margin: 20px 0;
+}
 
-   /* Hero Area */
+/* ---------------------Mobile Styles - Homepage----------------- */
 
-   .hero-area {
-    background: url(../img/unplugged-retreat.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-   }
+/* Hero Area */
 
-   .hero-area h1 {
-    font-size: 2.25em;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    line-height: 1.2;
-   }
+.hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
-   /* Aside */
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
 
-   aside {
-    background-color: #527158;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-flow: row wrap;
-   }
+/* Aside */
 
-   aside .form {
-    margin-top: 30px;
-   }
+aside {
+  background-color: #527158;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-   input [type=text] {
-    box-sizing: border-box;
-    width: 100%;
-    color: #2a423a;
-    font-style: italic;
-    padding: 1em;
-  }
+aside .form {
+  margin-top: 30px;
+}
 
-  input [type=button] {
-    width: 100%;
-    padding: 20px 0;
-    margin-top: 20px;
-    background-color: #2a423a;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 1.125em;
-    color: #e2e3ed;
-    border: none;
-    text-align: center;
-    text-transform: uppercase;
-  }
+input [type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
 
-   /* Features */
+input [type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-   .features {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-   }
+/* Features */
 
-   .features h2 {
-    margin-bottom: 60px;
-   }
-   
-   .features .features-items {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-flow: row wrap;
-   }
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
-   .features p {
-    text-align: center;
-    margin: 0;
-   }
+.features h2 {
+  margin-bottom: 60px;
+}
 
-   .features article {
-    width: 63%;
-    margin: 30px 0;
-   }
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 
-   /* Reviews */
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-   .reviews {
-    background-color: #2a423a;
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-   }
+.features p {
+  text-align: center;
+  margin: 0;
+}
 
-   .reviews h2 {
-    margin-bottom: 40px;
-    line-height: 1;
-   }
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
 
-   .reviews h3 {
-    width: 55%;
-    margin: 20px 0;
-   }
+/* Reviews */
+
+.reviews {
+  background-color: #2a423a;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.reviews h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
 
 
 /* ==========================================================================
   About Page
   =========================================================================== */
 
-  .mission {
-    background-color: #527158;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-flow: row wrap;
-  }
+.mission {
+  background-color: #527158;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-  .contact-section {
-    background-color: #2a423a;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-flow: row wrap;
-  }
+.contact-section {
+  background-color: #2a423a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-  .map figure {
-    width: 100%;
-    height: 0;
-    padding-bottom: 125%;
-    overflow: hidden;
-    position: relative;
-  }
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
 
-  .map iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-  .contact-content p {
-    margin: 0;
-  }
+.contact-content p {
+  margin: 0;
+}
 
-  /* ========================================================================
+/* ========================================================================
     FAQ Page
     ========================================================================= */
 
-    .faq {
-      background-color: #527158;
-      display: flex;
-      justify-content: center;
-      align-items:center;
-      flex-flow: row wrap;
-    }
+.faq {
+  background-color: #527158;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-    .faq .content-wrapper {
-    margin: 50px 0 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    }
+.faq .content-wrapper {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-    .faq h2 {
-      margin-bottom: 40px;
-      line-height: 1;
-    }
+.faq h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
 
-    .faq-content {
-      margin-bottom: 50px;
-    }
+.faq-content {
+  margin-bottom: 50px;
+}
 
-    .faq-content h4 {
-      line-height: 1.333;
-    }
+.faq-content h4 {
+  line-height: 1.333;
+}
 
 
 
@@ -509,6 +515,7 @@ textarea {
    ========================================================================== */
 
 @media only screen and (min-width: 786px) {
+
   /* General Styles */
   .content-wrapper {
     max-width: 640px;
@@ -598,59 +605,59 @@ textarea {
     width: 30%;
   }
 
-/* Reviews */
+  /* Reviews */
 
-.reviews article {
-  display: flex;
-  justify-content: left;
-}
+  .reviews article {
+    display: flex;
+    justify-content: left;
+  }
 
-.reviews h2 {
-  width: 85%;
-}
+  .reviews h2 {
+    width: 85%;
+  }
 
-.reviews article figure,
-.reviews article div {
-  width: 49%;
-}
+  .reviews article figure,
+  .reviews article div {
+    width: 49%;
+  }
 
-.reviews h3 {
-  width: 75%;
-  margin: 0;
-}
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
+  }
 
-/* Footer */
+  /* Footer */
 
-footer .content-wrapper {
-  width: 65%;
-  margin: 100px 0;
-}
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
 
-footer .contact {
-  margin-bottom: 0;
-}
+  footer .contact {
+    margin-bottom: 0;
+  }
 
-footer h4 {
-  font-size: 1.5em;
-  margin-bottom: 40px;
-}
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
 
-footer p {
-  line-height: 1.285;
-}
+  footer p {
+    line-height: 1.285;
+  }
 
-footer .copyright {
-  width: 100%; 
-}
+  footer .copyright {
+    width: 100%;
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
   About Page ================================================================ */
 
   .mission-content {
@@ -684,24 +691,24 @@ footer .copyright {
 
   /* ==============================================
     FAQ Page ================================ */
-    
-    .faq .content-wrapper {
-      justify-content: space-between;
-    }
 
-    .faq-content {
-      flex-basis: 45%;
-    }
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
 
-    .faq h2 {
-      width: 100%;
-    }
+  .faq-content {
+    flex-basis: 45%;
+  }
 
-    .faq h4,
-    .faq p {
-      font-size: .875em;
-      line-height: 1.125;
-    }
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: .875em;
+    line-height: 1.125;
+  }
 
 }
 
@@ -719,7 +726,8 @@ footer .copyright {
     font-size: 2.25em;
   }
 
-  h3, h4 {
+  h3,
+  h4 {
     font-size: 1.875em;
   }
 
@@ -728,53 +736,53 @@ footer .copyright {
     line-height: 1.333;
   }
 
-/* Hero */
+  /* Hero */
 
-.hero-area h1 {
-  font-size: 3.75em;
-  width: 80%;
-}
+  .hero-area h1 {
+    font-size: 3.75em;
+    width: 80%;
+  }
 
-/* Aside */
+  /* Aside */
 
-aside .content-wrapper {
-  justify-content: space-around;
-}
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
 
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {
-  width: 30%;
-}
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
 
-.form-description p {
-  font-size: 1.125em;
-}
+  .form-description p {
+    font-size: 1.125em;
+  }
 
-/* Features */
+  /* Features */
 
-.features h2 {
-  width: 90%;
-}
+  .features h2 {
+    width: 90%;
+  }
 
-.features article {
-  flex-basis: 33%;
-}
+  .features article {
+    flex-basis: 33%;
+  }
 
-/* Reviews */
+  /* Reviews */
 
-.reviews article div {
-  width: 42%;
-}
+  .reviews article div {
+    width: 42%;
+  }
 
-.reviews h2 {
-  padding-bottom: 50px;
-}
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
 
-footer h4 {
-  font-size: 1.875em;
-}
+  footer h4 {
+    font-size: 1.875em;
+  }
 
-/* =======================================================================
+  /* =======================================================================
   About Page ====================================== */
 
   .mission h2,
@@ -794,16 +802,16 @@ footer h4 {
   /* ============================================================
     FAQ Page ======================================================================== */
 
-.faq h2 {
-  width: 100%;
-  font-size: 3em;
-}
+  .faq h2 {
+    width: 100%;
+    font-size: 3em;
+  }
 
-.faq h4,
-.faq p {
-  font-size: 1.125em;
-  line-height: 1;
-}
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
 
 }
 
@@ -814,6 +822,7 @@ footer h4 {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -881,4 +890,3 @@ footer h4 {
     page-break-after: avoid;
   }
 }
-
